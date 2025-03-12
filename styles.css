@@ -1,8 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: black;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#id {
+#error {
   text-align: center;
+  margin-top: 20px;
+}
+main {
+  border: 1px solid white;
+  margin: 0 30%;
+  display: flex;
+  
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 90vh;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  /* font-size: 30px; */
 }
